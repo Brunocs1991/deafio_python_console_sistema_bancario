@@ -198,7 +198,7 @@ def recuperar_conta_cliente(cliente):
         print("\n@@@ Cliente não possui conta! @@@")
         return
 
-    # FIXME: não permite cliente escolher a conta
+    # FIXME: client not permitted select account
     return cliente.accounts[0]
 
 
